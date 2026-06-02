@@ -15,13 +15,9 @@
   "homepage": "https://github.com/open-wc/open-wc/tree/master/packages/scoped-elements",
   "type": "module",
   "exports": {
-    "./html-element.js": {
-      "types": "./dist-types/html-element.d.ts",
-      "default": "./html-element.js"
-    },
-    "./lit-element.js": {
-      "types": "./dist-types/lit-element.d.ts",
-      "default": "./lit-element.js"
+    "./*.js": {
+      "types": "./dist-types/*.d.ts",
+      "default": "./*.js"
     },
     "./package.json": "./package.json"
   },
